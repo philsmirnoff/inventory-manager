@@ -1,6 +1,7 @@
 import Sidebar from "./(components)/Sidebar";
 import Navbar from "./(components)/Navbar";
 
+
 const DashboardWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className={`dark flex bg-gray-50 text-gray-900 w-full min-h-screen`}>
